@@ -14,7 +14,7 @@ print(abs(3.14))
 3.14
 ## divmod(a, b) : Returns a tuple (quotient, remainder) for integer division a // b and a % b.
 Python divides a by b and gives you two results at the same time:
-print(divmod(21, 3))
+###print(divmod(21, 3))
 print(divmod(29, 7))
 print(divmod(19, 2))
 ## Power : Returns raise to value
