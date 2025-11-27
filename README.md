@@ -17,9 +17,6 @@ Python divides a by b and gives you two results at the same time:
 print(divmod(21, 3))
 print(divmod(29, 7))
 print(divmod(19, 2))
-(7, 0)
-(4, 1)
-(9, 1)
 ## Power : Returns raise to value
 print(pow(3, 4))
 print(pow(9, 5))
