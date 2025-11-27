@@ -3,7 +3,7 @@ This file contains a complete collection of Python built-in functions and string
 
 The notes cover a wide range of Python operations—from numerical functions to string handling, conversions, formatting, and input handling. It is designed for students, beginners, and anyone who wants quick reference material while coding in Python.
 
-📂 Topics Covered
+# Topics Covered
 🔹 Numeric Built-In Functions
 
 abs()
