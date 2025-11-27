@@ -4,7 +4,7 @@ This file contains a complete collection of Python built-in functions and string
 The notes cover a wide range of Python operations—from numerical functions to string handling, conversions, formatting, and input handling. It is designed for students, beginners, and anyone who wants quick reference material while coding in Python.
 
 # Topics Covered
-🔹 Numeric Built-In Functions
+## Numeric Built-In Functions
 
 abs()
 
@@ -20,7 +20,7 @@ round()
 
 Integer methods: bit_length(), to_bytes(), bit_count()
 
-🔹 String Methods
+## String Methods
 
 upper(), lower()
 
@@ -46,7 +46,7 @@ partition(), rpartition()
 
 center(), ljust(), rjust()
 
-🔹 Input Handling
+## Input Handling
 
 Single input
 
@@ -56,7 +56,7 @@ split() with mapping to integers
 
 Storing input in lists
 
-🧠 What This File Helps You Learn
+# What This File Helps You Learn
 
 ✔ Understand Python built-in functions quickly
 ✔ Learn string manipulation easily
@@ -64,7 +64,7 @@ Storing input in lists
 ✔ Get ready for coding interviews and practical exams
 ✔ Improve your Python basics with short, clear examples
 
-📁 Included File
+# Included File
 
 Built In Functions .md
 A well-structured Markdown file containing explanations and Python code examples.
