@@ -31,23 +31,11 @@ Python divides a by b and gives you two results at the same time:
 ## oct(x) — converts an integer to its octal string
 ## hex(x) — converts an integer to its hexadecimal string
 ###### print(bin(10))
-###### print(bin(5))
-###### print(bin(25))
 ###### print(oct(90))
-###### print(oct(100))
-###### print(oct(150))
 ###### print(hex(20))
-###### print(hex(9))
-###### print(hex(120))
 ###### 0b1010
-###### 0b101
-###### 0b11001
 ###### 0o132
-###### 0o144
-###### 0o226
 ###### 0x14
-###### 0x9
-###### 0x78
 ## Int() — converts a value into an integer number.
 ###### print(int(3.99))
 ###### print(int(25.5009982899))
