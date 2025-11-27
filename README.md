@@ -187,36 +187,36 @@ Python divides a by b and gives you two results at the same time:
 ###### hi----
 ###### ....hi
 # INPUT
-###### name = input("Enter your name: ")
-###### print("Welcome,", name)
-###### print("Type:", type(name))
+#### name = input("Enter your name: ")
+#### print("Welcome,", name)
+#### print("Type:", type(name))
 ###### Enter your name: Chanchal Bhangale
 ###### Welcome, Chanchal Bhangale
 ###### Type: <class 'str'>
-###### sentence = input("Enter a sentence: ")
-###### print(sentence)
+#### sentence = input("Enter a sentence: ")
+#### print(sentence)
 ###### Enter a sentence: My name is chanchal
 ###### My name is chanchal
-###### a, b = input("Enter two words: ").split()
-###### print(a, b)
+#### a, b = input("Enter two words: ").split()
+#### print(a, b)
 ###### Enter two words: Chanchal Bhangale
 ###### Chanchal Bhangale
-###### words = input("Enter words: ").split()
-###### print(words)
+#### words = input("Enter words: ").split()
+#### print(words)
 ###### Enter words: Chanchal Bhangale 
 ###### ['Chanchal', 'Bhangale']
-###### num = int(input("Enter a number: "))
-###### print("You entered:", num)
-###### print("Type:", type(num))
+#### num = int(input("Enter a number: "))
+#### print("You entered:", num)
+#### print("Type:", type(num))
 ###### Enter a number: 9
 ###### You entered: 9
 ###### Type: <class 'int'>
-###### a, b = map(int, input("Enter two integers: ").split())
-###### print(a, b)
+#### a, b = map(int, input("Enter two integers: ").split())
+#### print(a, b)
 ###### Enter two integers: 9 5
 ###### 9 5
-###### numbers = list(map(int, input("Enter integers: ").split()))
-###### print(numbers)
+#### numbers = list(map(int, input("Enter integers: ").split()))
+#### print(numbers)
 ###### Enter integers: 9 8
 ###### [9, 8]
 ## int.bit_length() - Returns the number of bits required to represent the integer in binary (excluding the sign).
