@@ -55,3 +55,17 @@ Multiple inputs
 split() with mapping to integers
 
 Storing input in lists
+
+🧠 What This File Helps You Learn
+
+✔ Understand Python built-in functions quickly
+✔ Learn string manipulation easily
+✔ Practice input handling
+✔ Get ready for coding interviews and practical exams
+✔ Improve your Python basics with short, clear examples
+
+📁 Included File
+
+Built In Functions .md
+A well-structured Markdown file containing explanations and Python code examples.
+
