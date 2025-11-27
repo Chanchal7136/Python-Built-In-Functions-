@@ -18,6 +18,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(divmod(21, 3))
 ###### print(divmod(29, 7))
 ###### print(divmod(19, 2))
+##### Outputs
 ###### (7, 0)
 ###### (4, 1)
 ###### (9, 1)
@@ -25,6 +26,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(pow(3, 4))
 ###### print(pow(9, 5))
 ###### print(pow(2, 10, 1000))
+##### Outputs
 ###### 81
 ###### 59049
 ###### 24
@@ -34,6 +36,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(bin(10))
 ###### print(oct(90))
 ###### print(hex(20))
+##### Outputs
 ###### 0b1010
 ###### 0o132
 ###### 0x14
@@ -41,6 +44,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(int(3.99))
 ###### print(int(25.5009982899))
 ###### print(int(30.37893986546))
+##### Outputs
 ###### 3
 ###### 25
 ###### 30
@@ -48,6 +52,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(format(255, 'b'))
 ###### print(format(3005, 'f'))
 ###### print(format(255984682, ','))
+##### Outputs
 ###### 11111111
 ###### 3005.000000
 ###### 255,984,682
@@ -55,6 +60,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(isinstance(10, int))
 ###### print(isinstance("hello", str))
 ###### print(isinstance([1, 2, 3], (list, tuple)))
+##### Outputs
 ###### True
 ###### True
 ###### True
@@ -62,6 +68,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(round(18.9999999))
 ###### print(round(25.78297488929999999))
 ###### print(round(98.9999999))
+##### Outputs
 ###### 19
 ###### 26
 ###### 99
@@ -70,6 +77,7 @@ Python divides a by b and gives you two results at the same time:
 ###### s='my name is chanchal'
 ###### print(s.upper())
 ###### print(s.lower())
+##### Outputs
 ###### MY NAME IS CHANCHAL
 ###### my name is chanchal
 ## String Strip - Removes extra spaces from both ends
@@ -78,12 +86,14 @@ Python divides a by b and gives you two results at the same time:
 ###### print("   hello".lstrip())
 ###### print("###python".lstrip("#"))
 ###### print("data***".rstrip("*"))
+##### Outputs
 ###### hello
 ###### python
 ###### data
 ## str.split(sep=None, maxsplit=-1)Splits a string into a list based on a separator (default = space); maxsplit controls how many splits happen.
 ###### print("apple banana mango".split())
 ###### print("x:y:z".split(":", 1))
+##### Outputs
 ###### ['apple', 'banana', 'mango']
 ###### ['a', 'b', 'c', 'd']
 ###### ['x', 'y:z']
@@ -91,6 +101,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print("apple banana mango".rsplit())
 ###### print("a,b,c,d".rsplit(",", 1))
 ###### print("1-2-3-4".rsplit("-", 2))
+##### Outputs
 ###### ['apple', 'banana', 'mango']
 ###### ['a,b,c', 'd']
 ###### ['1-2', '3', '4']
@@ -98,6 +109,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(','.join(['ababab','bcbcbc','cdcdcd']))
 ###### print(' '.join(['hello','world']))
 ###### print(':'.join('123')) 
+##### Outputs
 ###### ababab,bcbcbc,cdcdcd
 ###### hello world
 ###### 1:2:3
@@ -106,6 +118,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print(s.replace('a', 'o'))      
 ###### print(s.replace('an', ''))      
 ###### print(s.replace('n', 'o', 1)) 
+##### Outputs
 ###### chonchol
 ###### chchal
 ###### chaochal
@@ -113,8 +126,9 @@ Python divides a by b and gives you two results at the same time:
 ## str.rfind(sub, start=0, end=len(string))-Returns the index of the last occurrence of sub; returns -1 if not found.
 ###### s = 'abracadabra'
 ###### print(s.find('ra'))     
-###### print(s.find('z'))      #
+###### print(s.find('z'))      
 ###### print(s.rfind('ra'))  
+##### Outputs
 ###### 2
 ###### -1
 ###### 9
@@ -122,8 +136,9 @@ Python divides a by b and gives you two results at the same time:
 ## str.endswith(suffix) - Checks if the string ends with the given suffix (returns True/False).
 ###### s = 'hello.chanchal'
 ###### print(s.startswith('hel'))  
-###### print(s.endswith('.ch'))     #
+###### print(s.endswith('.ch'))     
 ###### print(''.startswith('a')) 
+##### Outputs
 ###### True
 ###### False
 ###### False
@@ -131,7 +146,8 @@ Python divides a by b and gives you two results at the same time:
 ###### s = 'chanchal'
 ###### print(s.count('a'))      
 ###### print(s.count('c'))     
-###### print(''.count('n'))   
+###### print(''.count('n'))
+##### Outputs
 ###### 2
 ###### 2
 ###### 0
@@ -143,6 +159,7 @@ Python divides a by b and gives you two results at the same time:
 ###### print('abc123'.isalnum())# True
 ###### print('123'.isdigit())   # True
 ###### print('\t\n'.isspace())# True
+##### Outputs
 ###### True
 ###### True
 ###### True
@@ -152,7 +169,8 @@ Python divides a by b and gives you two results at the same time:
 ## str.swapcase() - Make upper case to lower case and vv
 ###### print('hello world'.capitalize()) 
 ###### print('hello world'.title())      
-###### print('Hello'.swapcase())  
+###### print('Hello'.swapcase()) 
+##### Outputs
 ###### Hello world
 ###### Hello World
 ###### hELLO
@@ -160,18 +178,21 @@ Python divides a by b and gives you two results at the same time:
 ###### print('9'.zfill(3))    
 ###### print('123'.zfill(5))  
 ###### print('-7'.zfill(3))
+##### Outputs
 ###### 009
 ###### 00123
 ###### -07
 ## str.partition(sep) and str.rpartition(sep)
 ###### print('a=b=c'.partition('='))   
-###### print('a=b=c'.rpartition('='))  
+###### print('a=b=c'.rpartition('=')) 
+##### Outputs
 ###### ('a', '=', 'b=c')
 ###### ('a=b', '=', 'c')
 ## str.center(width, fillchar=' '), str.ljust(), str.rjust() - Filled extra spaces with define characters
 ###### print('hello'.center(6))     
 ###### print('hi'.ljust(6, '-')) 
 ###### print('hi'.rjust(6, '.'))
+##### Outputs
 ###### hello 
 ###### hi----
 ###### ....hi
@@ -179,33 +200,40 @@ Python divides a by b and gives you two results at the same time:
 #### name = input("Enter your name: ")
 #### print("Welcome,", name)
 #### print("Type:", type(name))
+##### Outputs
 ###### Enter your name: Chanchal Bhangale
 ###### Welcome, Chanchal Bhangale
 ###### Type: <class 'str'>
 #### sentence = input("Enter a sentence: ")
 #### print(sentence)
+##### Outputs
 ###### Enter a sentence: My name is chanchal
 ###### My name is chanchal
 #### a, b = input("Enter two words: ").split()
 #### print(a, b)
+##### Outputs
 ###### Enter two words: Chanchal Bhangale
 ###### Chanchal Bhangale
 #### words = input("Enter words: ").split()
 #### print(words)
+##### Outputs
 ###### Enter words: Chanchal Bhangale 
 ###### ['Chanchal', 'Bhangale']
 #### num = int(input("Enter a number: "))
 #### print("You entered:", num)
 #### print("Type:", type(num))
+##### Outputs
 ###### Enter a number: 9
 ###### You entered: 9
 ###### Type: <class 'int'>
 #### a, b = map(int, input("Enter two integers: ").split())
 #### print(a, b)
+##### Outputs
 ###### Enter two integers: 9 5
 ###### 9 5
 #### numbers = list(map(int, input("Enter integers: ").split()))
 #### print(numbers)
+##### Outputs
 ###### Enter integers: 9 8
 ###### [9, 8]
 ## int.bit_length() - Returns the number of bits required to represent the integer in binary (excluding the sign).
@@ -214,12 +242,14 @@ Python divides a by b and gives you two results at the same time:
 ###### print((10).bit_length())
 ###### print((0).bit_length())
 ###### print((1023).bit_length())
+##### Outputs
 ###### 4
 ###### 0
 ###### 10
 ###### print((1024).to_bytes(2, 'big'))    
 ###### print((1024).to_bytes(2, 'little')) 
 ###### print((255).to_bytes(1, 'big'))
+##### Outputs
 ###### b'\x04\x00'
 ###### b'\x00\x04'
 ###### b'\xff'
