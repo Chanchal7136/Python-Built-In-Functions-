@@ -6,17 +6,17 @@ The notes cover a wide range of Python operations—from numerical functions to 
 # Topics Covered
 
 ## abs() — returns the absolute (non-negative) value of a number
-print(abs(5))      
-print(abs(-10))     
-print(abs(3.14))   
-5
-10
-3.14
+###### print(abs(5))      
+###### print(abs(-10))     
+###### print(abs(3.14))   
+###### 5
+###### 10
+###### 3.14
 ## divmod(a, b) : Returns a tuple (quotient, remainder) for integer division a // b and a % b.
 Python divides a by b and gives you two results at the same time:
-### print(divmod(21, 3))
-### print(divmod(29, 7))
-### print(divmod(19, 2))
+###### print(divmod(21, 3))
+###### print(divmod(29, 7))
+###### print(divmod(19, 2))
 ## Power : Returns raise to value
 print(pow(3, 4))
 print(pow(9, 5))
