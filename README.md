@@ -9,6 +9,7 @@ The notes cover a wide range of Python operations—from numerical functions to 
 ###### print(abs(5))      
 ###### print(abs(-10))     
 ###### print(abs(3.14))   
+##### Outputs
 ###### 5
 ###### 10
 ###### 3.14
